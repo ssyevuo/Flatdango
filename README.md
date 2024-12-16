@@ -1,5 +1,5 @@
 # Flatdango
-This is a simple web application for booking movie tickets at Flatiron Movie Theatre.
+This is a simple web application for booking movie tickets at Flatiron Movie Theatre. The live link is the following: https://ssyevuo.github.io/Flatdango/
 
 ## Features
 - View details of the first movie when the page loads.
