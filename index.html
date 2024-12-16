@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Flatdango</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="app">
+            <!-- Search bar for users to search movies-->
+             <input type="text" name="" id="search-bar" placeholder="Search movies...">
+
+             <!--Allow users to add movies-->
+             <form id="add-movie-form">
+                <input type="text" name="title" placeholder="Title" required>
+                <input type="number" name="runtime" placeholder="Runtime (minutes)" required>
+                <input type="text" name="showtime" placeholder="Showtime" required>
+                <input type="number" name="capacity" placeholder="Capacity" required>
+                <input type="text" name="poster" placeholder="Poster URL" required>
+                <button type="submit">Add Movie</button>
+             </form>
+
+            <!-- contains data for all the movies that is the title, runtime, showtime, tickets -->
+            <div id="movie-details">
+                <img src="" id="poster" alt="Movie poster">
+                <h2 id="title">Movie Title</h2>
+                <p id="runtime">Runtime: --</p>
+                <p id="showtime">Showtime: --</p>
+                <p id="tickets">Available Tickets: --</p>
+                <button id="buy-ticket">Buy Ticket</button>
+            </div>
+            <!--new movies are populated here-->
+            <div id="menu">
+                <ul id="films">
+                    <li>Placeholder Film</li>
+                </ul>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
